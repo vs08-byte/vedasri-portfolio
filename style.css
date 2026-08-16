@@ -279,12 +279,13 @@ ul {
   box-shadow: var(--shadow);
 }
 
-.profile-photo {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center center;
-  border-radius: 24px;
+.profile-image {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+    border-radius: 24px;
 }
 
 .photo-note {
